@@ -27,6 +27,7 @@ import java.util.List;
 import java.util.Set;
 
 public class Bot extends TelegramLongPollingBot {
+    //
     StandardServiceRegistry standardServiceRegistry = new StandardServiceRegistryBuilder()
             .configure("hibernate.cfg.xml").build();
     Metadata metadata = new MetadataSources(standardServiceRegistry)
